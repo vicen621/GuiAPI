@@ -1,8 +1,8 @@
-package com.github.vicen621.guiapi.Listeners;
+package io.github.vicen621.guiapi.Listeners;
 
-import com.github.vicen621.guiapi.Events.InventoryButtonClickEvent;
-import com.github.vicen621.guiapi.GUIManager;
-import com.github.vicen621.guiapi.InventoryGUI;
+import io.github.vicen621.guiapi.Events.InventoryButtonClickEvent;
+import io.github.vicen621.guiapi.GUIManager;
+import io.github.vicen621.guiapi.InventoryGUI;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

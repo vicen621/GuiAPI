@@ -1,6 +1,6 @@
-package com.github.vicen621.guiapi;
+package io.github.vicen621.guiapi;
 
-import com.github.vicen621.guiapi.Listeners.ButtonListener;
+import io.github.vicen621.guiapi.Listeners.ButtonListener;
 import org.bukkit.Bukkit;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.plugin.java.JavaPlugin;

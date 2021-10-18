@@ -1,4 +1,4 @@
-package com.github.vicen621.guiapi;
+package io.github.vicen621.guiapi;
 
 import lombok.Getter;
 import org.bukkit.Bukkit;

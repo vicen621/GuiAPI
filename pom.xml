@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.vicen621</groupId>
+    <groupId>io.github.vicen621</groupId>
     <artifactId>gui-api</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>

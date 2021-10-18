@@ -1,6 +1,6 @@
-package com.github.vicen621.guiapi.Events;
+package io.github.vicen621.guiapi.Events;
 
-import com.github.vicen621.guiapi.InventoryGUI;
+import io.github.vicen621.guiapi.InventoryGUI;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.InventoryView;
 import org.bukkit.inventory.ItemStack;
