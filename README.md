@@ -22,7 +22,7 @@ GUI Api for bukkit plugins, with 1.16 to 1.17 support.
             <configuration>
                 <relocations>
                     <relocation>
-                        <pattern>com.github.vicen621.guiapi</pattern>
+                        <pattern>io.github.vicen621.guiapi</pattern>
                         <!-- Replace 'com.yourpackage' with the package of your plugin ! -->
                         <shadedPattern>com.yourpackage.guiapi</shadedPattern>
                     </relocation>
@@ -34,7 +34,7 @@ GUI Api for bukkit plugins, with 1.16 to 1.17 support.
 
 <dependencies>
     <dependency>
-        <groupId>com.github.vicen621</groupId>
+        <groupId>io.github.vicen621</groupId>
         <artifactId>gui-api</artifactId>
         <version>1.0-SNAPSHOT</version>
     </dependency>
@@ -53,12 +53,12 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.vicen621:gui-api:1.0-SNAPSHOT'
+    implementation 'io.github.vicen621:gui-api:1.0-SNAPSHOT'
 }
 
 shadowJar {
     // Replace 'com.yourpackage' with the package of your plugin 
-    relocate 'com.github.vicen621.guiapi', 'com.yourpackage.guiapi'
+    relocate 'io.github.vicen621.guiapi', 'com.yourpackage.guiapi'
 }
 ```
 
