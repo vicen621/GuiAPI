@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"io.github.vicen621.guiapi","l":"GUIManager"},{"p":"io.github.vicen621.guiapi.Events","l":"InventoryButtonClickEvent"},{"p":"io.github.vicen621.guiapi","l":"InventoryGUI"},{"p":"io.github.vicen621.guiapi.Events","l":"InventoryGUIEvent"}];updateSearchResults();
