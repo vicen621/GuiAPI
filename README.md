@@ -1,5 +1,5 @@
 # GuiAPI
-Lightweighted Gui apifor bukkit plugins, with 1.16 to 1.17 support.
+GUI Api for bukkit plugins, with 1.16 to 1.17 support.
 
 ## Instalation
 
