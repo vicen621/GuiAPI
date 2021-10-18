@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.github.vicen621.guiapi"},{"l":"io.github.vicen621.guiapi.Events"}];updateSearchResults();
