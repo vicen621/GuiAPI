@@ -35,7 +35,7 @@ GUI Api for bukkit plugins, with 1.16 to 1.17 support.
 <dependencies>
     <dependency>
         <groupId>com.github.vicen621</groupId>
-        <artifactId>GuiApi</artifactId>
+        <artifactId>gui-api</artifactId>
         <version>1.0-SNAPSHOT</version>
     </dependency>
 </dependencies>
@@ -53,7 +53,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.vicen621:GuiApi:1.0-SNAPSHOT'
+    implementation 'com.github.vicen621:gui-api:1.0-SNAPSHOT'
 }
 
 shadowJar {
