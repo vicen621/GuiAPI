@@ -85,4 +85,13 @@ gui.fill(new ItemStack(Material.WHITE_STAINED_GLASS_PANE));
 gui.open(player);
 ```
 
+### Listening to buttons
+
+```java
+@EventHandler
+public void onButtonClick(InventoryButtonClickEvent e) {
+    if (e.getInventoryGUI())
+}
+```
+
 

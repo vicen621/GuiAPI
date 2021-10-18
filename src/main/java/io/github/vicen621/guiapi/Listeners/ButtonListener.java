@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2021. Vicen621
+ * All rights reserved
+ */
+
 package io.github.vicen621.guiapi.Listeners;
 
 import io.github.vicen621.guiapi.Events.InventoryButtonClickEvent;
