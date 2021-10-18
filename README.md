@@ -72,6 +72,15 @@ shadowJar {
 
 ## Usage
 
+### Hook
+
+```java
+// In your onEnable you have to put the following line to hook the API
+@Override
+public void onEnable() {
+    new GUIManager(this);
+}```
+
 ### Creating a GUI
 
 ```java
@@ -90,7 +99,9 @@ gui.open(player);
 ```java
 @EventHandler
 public void onButtonClick(InventoryButtonClickEvent e) {
-    if (e.getInventoryGUI())
+    if (e.getInventoryGUI().getID().eqalsIgnoreCase("test)) {
+        plugin.getLogger().info(e.getButtonID());
+    }
 }
 ```
 
