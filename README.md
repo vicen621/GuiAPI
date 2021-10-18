@@ -32,6 +32,13 @@ GUI Api for bukkit plugins, with 1.16 to 1.17 support.
     </plugins>
 </build>
 
+<repositories>
+    <repository>
+        <id>snapshot</id>
+        <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+    </repository>
+</repositories>
+
 <dependencies>
     <dependency>
         <groupId>io.github.vicen621</groupId>
@@ -50,6 +57,7 @@ plugins {
 
 repositories {
     mavenCentral()
+    maven { url 'https://s01.oss.sonatype.org/content/repositories/snapshots' }
 }
 
 dependencies {
