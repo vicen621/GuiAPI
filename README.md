@@ -100,10 +100,20 @@ gui.open(player);
 ```java
 @EventHandler
 public void onButtonClick(InventoryButtonClickEvent e) {
-    if (e.getInventoryGUI().getID().eqalsIgnoreCase("test)) {
+    if (e.getInventoryGUI().getID().eqalsIgnoreCase("test")) {
         plugin.getLogger().info(e.getButtonID());
     }
 }
 ```
 
+## JavaDocs
 
+You can found the javadocs at https://vicen621.github.io/GuiAPI
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
