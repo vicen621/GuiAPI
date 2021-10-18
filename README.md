@@ -79,7 +79,8 @@ shadowJar {
 @Override
 public void onEnable() {
     new GUIManager(this);
-}```
+}
+```
 
 ### Creating a GUI
 
